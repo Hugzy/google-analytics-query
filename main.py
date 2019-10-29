@@ -13,7 +13,7 @@ date = datetime.datetime(2016, 8, 1)
 # Initiate bigquery client
 bq = bigquery.Client()
 
-
+# Change to 365 to get all values
 for i in range(3):
     # Get the first table
     dt = date.strftime("%Y%m%d")
